@@ -1,0 +1,31 @@
+@import "@radix-ui/colors/gold.css";
+@import "@radix-ui/colors/gold-dark.css";
+
+$background-color: var(--gold-1);
+$background-color-secondary: var(--gold-2);
+
+$background-component: var(--gold-3);
+$background-component-hover: var(--gold-4);
+$background-component-active: var(--gold-5);
+
+$border-color-subtle: var(--gold-6);
+$border-color: var(--gold-7);
+$border-color-hover: var(--gold-8);
+
+$background-solid: var(--gold-9);
+$background-solid-hover: var(--gold-10);
+
+$text-color: var(--gold-12);
+$text-color-secondary: var(--gold-11);
+
+$breakpoints: (
+  small: 350px,
+  medium: 768px,
+  large: 992px,
+  xlarge: 1200px,
+);
+
+$breakpoint-desktop: 769px;
+
+$wmin: 375px;
+$wmax: 768px;
