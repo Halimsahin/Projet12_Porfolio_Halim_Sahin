@@ -3,7 +3,10 @@ import { Sun } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const Header = () => {
-  const [isDarkMode, setIsDarkMode] = useState(false);
+  const [isDarkMode, setIsDarkMode] = useState(() => {
+    const savedMode = localStorage.getItem("darkMode");
+    return savedMode ? JSON.parse(savedMode) : false;
+  });
 
   useEffect(() => {
     if (isDarkMode) {
@@ -11,6 +14,7 @@ const Header = () => {
     } else {
       document.body.classList.remove("dark");
     }
+    localStorage.setItem("darkMode", JSON.stringify(isDarkMode));
   }, [isDarkMode]);
 
   const toggleDarkMode = () => {
