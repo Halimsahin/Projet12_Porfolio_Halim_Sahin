@@ -4,9 +4,9 @@
     "title": "Projet Kasa",
     "description": "Le projet Kasa est une application React de location immobilière, sur ce projet que je devais monter de zéro j'ai créer la structure et les différents composants de l'application web à l'aide de React.",
     "pictures": [
-      "../../public/images/kasa-homepage.png",
-      "../../public/images/kasa-apropos.png",
-      "../../public/images/kasa-logement.png"
+      "/images/kasa-homepage.png",
+      "/images/kasa-apropos.png",
+      "/images/kasa-logement.png"
     ],
     "littletitle": "Kasa",
     "littledescription": "Projet react d'une application immobilière"
@@ -16,11 +16,11 @@
     "title": "Projet 724 Event",
     "description": "Dans le projet 724event, je devais déboguer un site d'évènement à l'aide de test sur les différents composants du projet et l'optimisation du site.",
     "pictures": [
-      "../../public/images/724event-carrousel.png",
-      "../../public/images/724event-services.png",
-      "../../public/images/724event-events.png",
-      "../../public/images/724event-team.png",
-      "../../public/images/724event-contact.png"
+      "/images/724event-carrousel.png",
+      "/images/724event-services.png",
+      "/images/724event-events.png",
+      "/images/724event-team.png",
+      "/images/724event-contact.png"
     ],
     "littletitle": "724 Event",
     "littledescription": "Projet de débugage d'un site d'évènement"
@@ -30,9 +30,9 @@
     "title": "Projet Argent Bank",
     "description": "Argent bank est un projet d'une application bancaire que je devais implémenter en React. Par la suite intégrer un système d'authentification pour les utilisateurs.",
     "pictures": [
-      "../../public/images/argentbank-homepage.png",
-      "../../public/images/argentbank-login.png",
-      "../../public/images/argentbank-transactions.png"
+      "/images/argentbank-homepage.png",
+      "/images/argentbank-login.png",
+      "/images/argentbank-transactions.png"
     ],
     "littletitle": "Argent Bank",
     "littledescription": "Projet react avec API d'un site bancaire"
