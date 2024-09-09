@@ -1,4 +1,5 @@
 import Social from "./Social";
+import heroImage from "../images/pp__hero.png";
 
 const Hero = () => {
   return (
@@ -11,7 +12,7 @@ const Hero = () => {
         <Social />
       </div>
       <div className="hero__img">
-        <img src="src/images/pp__hero.png" alt="halim sahin" />
+        <img src={heroImage} alt="halim sahin" />
       </div>
     </div>
   );
