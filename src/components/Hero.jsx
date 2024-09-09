@@ -11,7 +11,7 @@ const Hero = () => {
         <Social />
       </div>
       <div className="hero__img">
-        <img src="src/images/pp__hero.png" alt="" />
+        <img src="src/images/pp__hero.png" alt="halim sahin" />
       </div>
     </div>
   );

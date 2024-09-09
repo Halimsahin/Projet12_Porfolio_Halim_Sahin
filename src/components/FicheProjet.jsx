@@ -19,7 +19,7 @@ const FicheProjet = () => {
           <Carrousel slides={ficheProjet.pictures} />
         </div>
       ) : (
-        <Navigate replace to="/404" />
+        <Navigate replace to="/Error" />
       )}
       ;
     </>
