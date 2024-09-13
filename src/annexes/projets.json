@@ -8,6 +8,7 @@
       "/images/kasa-apropos.png",
       "/images/kasa-logement.png"
     ],
+    "lienrepo": "https://github.com/Halimsahin/Openclassrooms-Projet7_Kasa_Halim_Sahin",
     "littletitle": "Kasa",
     "littledescription": "Projet react d'une application immobilière"
   },
@@ -22,6 +23,7 @@
       "/images/724event-team.png",
       "/images/724event-contact.png"
     ],
+    "lienrepo": "https://github.com/Halimsahin/Openclassrooms-Projet9_724Event_Halim_Sahin",
     "littletitle": "724 Event",
     "littledescription": "Projet de débugage d'un site d'évènement"
   },
@@ -34,6 +36,7 @@
       "/images/argentbank-login.png",
       "/images/argentbank-transactions.png"
     ],
+    "lienrepo": "https://github.com/Halimsahin/Openclassrooms-Projet10_ArgentBank_Halim_Sahin",
     "littletitle": "Argent Bank",
     "littledescription": "Projet react avec API d'un site bancaire"
   }

@@ -2,6 +2,9 @@
   border-left: 2px solid $border-color;
   border-right: 2px solid $border-color;
   padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .fiche__content {
@@ -19,4 +22,30 @@
     padding: 0 10px 10px 10px;
     width: 80%;
   }
+}
+
+.fiche__aside {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+  @media screen and (max-width: 800px) {
+    gap: 10px;
+  }
+  @media screen and (max-width: 500px) {
+    gap: 5px;
+    align-items: flex-start;
+    margin-left: 20px;
+  }
+}
+
+.fiche__technique {
+  display: flex;
+  gap: 10px;
+}
+
+.social__icone {
+  color: $text-color;
 }
